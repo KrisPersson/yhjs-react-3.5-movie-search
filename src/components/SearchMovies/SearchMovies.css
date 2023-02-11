@@ -1,0 +1,52 @@
+form {
+    width: 100%;
+    /* border: 1px dashed red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / span 1;
+    background-color: rgb(22, 22, 22);
+
+}
+
+form h1 {
+    margin: 0;
+}
+
+form input, form button {
+    /* height: 2rem; */
+    padding: 1rem 2rem;
+    /* font-family: 'Roboto'; */
+    font-size: 1.2rem;
+    border: none;
+    box-shadow:  4px 4px 10px rgb(22 22 22 / 0.4);
+    border: 1px solid grey;
+
+}
+
+form input {
+    border-radius: 50px 0 0 50px;
+    outline: none;
+}
+
+form button {
+    border-radius: 0 50px 50px 0;
+    background: rgb(197, 197, 197);
+    transition: 80ms;
+    border: 1px solid grey;
+    /* border-left: none; */
+    box-sizing: border-box;
+    color: rgb(86, 86, 86);
+}
+
+form button:hover {
+    cursor: pointer;
+    background: rgb(213, 213, 213);
+    transition: 80ms;
+}
+
+form i {
+    transform: translateX(-3px);
+}

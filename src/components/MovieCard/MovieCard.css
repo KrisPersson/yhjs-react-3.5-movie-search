@@ -1,0 +1,57 @@
+
+
+.movie-card {
+    width:  18rem;
+    height: 30rem;
+    /* border: 1px dashed black; */
+    position: relative;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 0.5 );
+}
+
+.movie-card__poster-container {
+    max-height: 27rem;
+    overflow: hidden;
+}
+
+.movie-card__poster-container img {
+
+}
+
+.movie-card__info-box {
+    height: 5rem;;
+    width: 100%;;
+    background: rgb(0 0 0 );
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 0.5rem;
+
+    /* display: flex; */
+}
+
+.movie-card__info-box h2 {
+    margin: 0;
+    font-size: 1rem;
+    max-width: 70%;
+}
+
+.movie-card__info-box p {
+    margin: 0;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    color: rgb(255 255 255 / 0.5);
+}
+
+.movie-card__info-box p:nth-last-child() {
+}
+
+.info-box__year {
+    top: 0.7rem;
+    bottom: unset;
+    color: rgb(255 255 255 / 0.9) !important;
+
+}
+

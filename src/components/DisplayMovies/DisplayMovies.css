@@ -1,0 +1,17 @@
+
+.display-movies {
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    grid-column: 1 / -1;
+    grid-row: 2 / span 1;;
+
+    list-style: none;
+
+    margin: 0 auto;
+
+    gap: 1rem;
+}
+
